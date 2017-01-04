@@ -72,7 +72,7 @@ dmz_card_info dmz_card_info_for_prefix_and_length(uint8_t *number_array, uint8_t
     {CardTypeMaestro,     16, 2, 56, 59},          // Maestro
     {CardTypeDiscover,    16, 4, 6011, 6011},      // Discover
     {CardTypeMaestro,     16, 2, 61, 61},          // Maestro
-    {CardTypeDiscover,    16, 2, 62, 62},          // China UnionPay (Discover)
+    {CardTypeUnionPay,    16, 2, 62, 62},          // China UnionPay (Discover)
     {CardTypeMaestro,     16, 2, 63, 63},          // Maestro
     {CardTypeDiscover,    16, 3, 644, 649},        // Discover
     {CardTypeDiscover,    16, 2, 65, 65},          // Discover
